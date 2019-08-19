@@ -9,7 +9,7 @@ router.get("/",function(req,res){
 
 
 router.get('/newItem/:Name/:Quantity/:Price',function(req,res){
-    res.send("You are adding a new item...");
+    res.send("You have added a new item!");
     console.log(req.url);
     console.log(req.params);
     let randomNumber = Math.round(Math.random()*1000);
